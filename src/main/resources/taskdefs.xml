@@ -4,6 +4,7 @@
     <taskdef name="create-s3-bucket" classname="com.amazonaws.ant.s3.CreateS3BucketTask" />
     <taskdef name="upload-to-s3" classname="com.amazonaws.ant.s3.UploadFileSetToS3Task" />
     <taskdef name="download-from-s3" classname="com.amazonaws.ant.s3.DownloadFileFromS3Task" />
+    <taskdef name="list-files-s3" classname="com.amazonaws.ant.s3.ListFileS3Task" />
     
     <taskdef name="create-beanstalk-app"
         classname="com.amazonaws.ant.elasticbeanstalk.CreateBeanstalkApplicationTask" />
